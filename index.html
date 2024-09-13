@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Static Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="resume-header">
+      <h1>Static Resume</h1>
+      <div class="profile-section">
+        <img src="profile.jpg" alt="Profile" class="profile-image"/>
+        <div>
+          <h2>Urooj Sadiq</h2>
+          <hr class="divider">
+          <p class="contact-info">uroojsadiq1998@gmail.com</p>
+          <p class="contact-info">+923022472086</p>
+        </div>
+      </div>
+    </header>
+
+    <div class="buttons">
+      <button id="education-btn">Education</button>
+      <button id="skills-btn">Skills</button>
+      <button id="experience-btn">Experience</button>
+    </div>
+
+    <main class="content">
+      <!-- Education Section -->
+      <section id="education" class="content-section hidden">
+        <h1>Education:</h1>
+        <div class="card-grid"></div> <!-- Corrected ID -->
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="content-section hidden ">
+        <h1>Skills:</h1>
+        <div class="skill-list skills-grid">
+        </div>
+         <!-- Corrected ID -->
+      </section>
+
+      <!-- Work Experience Section -->
+      <section id="work-experience" class="content-section hidden">
+        <h1>Experience:</h1>
+        <div class="card-grid"></div> <!-- Corrected ID -->
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
